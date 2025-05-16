@@ -1,0 +1,38 @@
+﻿body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  line-height: 1.6;
+  margin-inline: 60px;
+}
+
+h1 {
+  text-align: left;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+
+
+.text {
+  flex: 1;
+}
+
+.image {
+  flex: 1;
+}
+
+img{
+  border-radius: 10px;
+}
+
+p{
+  margin-top: 0;
+}
+
